@@ -4,6 +4,7 @@ import Welcome from './components/Welcome';
 import Dashboard from './components/Dashboard';
 import History from './components/History';
 import Insights from './components/Insights';
+import Settings from './components/Settings'
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/history" element={<History />} />
         <Route path='/insights' element={<Insights/>} />
+        <Route path='/settings' element={<Settings/>} />
       </Routes>
     </Router>
   );
